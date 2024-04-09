@@ -64,7 +64,6 @@ export default function Categories() {
                 >{item.text}</Text>
             </View>
         ))}
-        
     </ScrollView>
     </View>
   )
