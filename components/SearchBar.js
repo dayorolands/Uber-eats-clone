@@ -8,6 +8,7 @@ export default function SearchBar() {
   return (
     <View style={{flexDirection: "row", marginTop: 15}}>
         <GooglePlacesAutocomplete 
+            query={{key: 'AIzaSyCemEafYVkTQziCOv_MFlWsrkcyoTYMR0E'}}
             placeholder= 'Search'
             styles={{
                 textInput: {
